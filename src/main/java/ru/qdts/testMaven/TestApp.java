@@ -14,5 +14,12 @@ public class TestApp {
 		a = 10;
 		b = 30;
 	}
+	
+	public void errorMethod2(Integer a) {
+		if (a != null) {
+			a.hashCode();
+		}
+		a.intValue();
+	}
 
 }
